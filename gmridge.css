@@ -1,0 +1,34 @@
+
+nav{
+    background-color: transparent;
+    color: rgb(236, 115, 135);
+    text-align: right;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+body {
+    background-clip: border-box;
+    background-color: #F3EED7;
+    border-radius: 20px;
+    border-color: #187F58;
+    color:#C38D9E;
+}
+
+footer {
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+    bottom: 0px;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
