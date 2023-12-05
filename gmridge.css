@@ -1,12 +1,12 @@
 
 nav{
     background-color: transparent;
-    color: rgb(236, 115, 135);
+    color: #187F58;
     text-align: right;
     position: absolute;
     padding-top: 20px;
     padding-bottom: 50px;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     width: 100%;
 }
@@ -17,7 +17,41 @@ body {
     background-color: #F3EED7;
     border-radius: 20px;
     border-color: #187F58;
-    color:#C38D9E;
+    color:#187F58
+}
+
+.title {
+    font-family: "YAFcfiBJMjY 0", _fb_, auto;
+    font-size: 160px;
+    color: rgb(9, 125, 76);
+    line-height: 180px;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+
+.experience {
+    text-align: left;
+    float: left;
+    width: 60%;
+}
+
+.skills {
+    text-align: left;
+    float: right;
+    background-color: #187F58;
+    color: #F3EED7;
+    padding: 20px;
+    height: 100%;
+    width: 30%;
+}
+
+.education {
+    float: left;
+    width: 60%;
 }
 
 footer {
