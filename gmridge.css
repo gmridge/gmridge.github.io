@@ -17,7 +17,8 @@ body {
     background-color: #F3EED7;
     border-radius: 20px;
     border-color: #187F58;
-    color:#187F58
+    color:#187F58;
+    margin-right: 320px; 
 }
 
 .title {
@@ -36,21 +37,26 @@ body {
 .experience {
     text-align: left;
     float: left;
-    width: 60%;
+    position: absolute left;
+    position: sticky;
+    width: 50%;
 }
 
 .skills {
-    text-align: left;
-    float: right;
+    position: fixed;
+    top: 120px; 
+    right: 0; 
+    width: 300px; 
+    height: 600px;
+    padding: 20px; 
     background-color: #187F58;
     color: #F3EED7;
-    padding: 20px;
-    height: 100%;
-    width: 30%;
 }
 
 .education {
     float: left;
+    position: absolute left;
+    position: sticky;
     width: 60%;
 }
 
